@@ -1,0 +1,2 @@
+2016-12-06 23:08:03 [scrapy] INFO: Scrapy 1.2.1 started (bot: govbuyscrapy)
+2016-12-06 23:08:03 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'govbuyscrapy.spiders', 'SPIDER_MODULES': ['govbuyscrapy.spiders'], 'LOG_FILE': 'logs/govbuyscrapy/govbuy_wan_timing/c6fe3ad2bbc511e6a5e114dda97ae760.log', 'BOT_NAME': 'govbuyscrapy'}

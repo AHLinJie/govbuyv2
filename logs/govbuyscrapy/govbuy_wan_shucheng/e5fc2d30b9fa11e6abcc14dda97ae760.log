@@ -1,0 +1,92 @@
+2016-12-04 08:23:15 [scrapy] INFO: Scrapy 1.2.1 started (bot: govbuyscrapy)
+2016-12-04 08:23:15 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'govbuyscrapy.spiders', 'SPIDER_MODULES': ['govbuyscrapy.spiders'], 'LOG_FILE': 'logs/govbuyscrapy/govbuy_wan_shucheng/e5fc2d30b9fa11e6abcc14dda97ae760.log', 'BOT_NAME': 'govbuyscrapy'}
+2016-12-04 08:23:15 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-12-04 08:23:15 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-12-04 08:23:15 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-12-04 08:23:15 [py.warnings] WARNING: govbuyscrapy/pipelines.py:9: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import JsonItemExporter
+
+2016-12-04 08:23:15 [scrapy] INFO: Enabled item pipelines:
+['govbuyscrapy.pipelines.GovbuyPipeline']
+2016-12-04 08:23:15 [scrapy] INFO: Spider opened
+2016-12-04 08:23:15 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-12-04 08:23:15 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-12-04 08:23:16 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1> (referer: None)
+2016-12-04 08:23:16 [scrapy] DEBUG: Filtered duplicate request: <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2016-12-04 08:23:16 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=31> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:16 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=16> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:17 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=15> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:17 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=11> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:18 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=13> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:18 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=12> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:18 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=14> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:19 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=17> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:19 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=18> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:19 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=19> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:20 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=8> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:20 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=9> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:21 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=2> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:21 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=3> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:22 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=4> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:22 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=5> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:23 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=10> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:23 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=6> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:23 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=7> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:24 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=29> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:24 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=28> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:25 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=21> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:25 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=20> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:25 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=23> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:26 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=22> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:26 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=25> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:27 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=24> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:27 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=27> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:27 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=26> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:28 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=36> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:28 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=37> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:28 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=34> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:29 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=35> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:29 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=32> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:29 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=33> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:30 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=30> (referer: http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1)
+2016-12-04 08:23:30 [scrapy] INFO: Closing spider (finished)
+2016-12-04 08:23:30 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 17756,
+ 'downloader/request_count': 37,
+ 'downloader/request_method_count/GET': 37,
+ 'downloader/response_bytes': 1036881,
+ 'downloader/response_count': 37,
+ 'downloader/response_status_count/200': 37,
+ 'dupefilter/filtered': 1333,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 12, 4, 8, 23, 30, 241047),
+ 'log_count/DEBUG': 39,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 1,
+ 'request_depth_max': 2,
+ 'response_received_count': 37,
+ 'scheduler/dequeued': 37,
+ 'scheduler/dequeued/memory': 37,
+ 'scheduler/enqueued': 37,
+ 'scheduler/enqueued/memory': 37,
+ 'start_time': datetime.datetime(2016, 12, 4, 8, 23, 15, 573378)}
+2016-12-04 08:23:30 [scrapy] INFO: Spider closed (finished)

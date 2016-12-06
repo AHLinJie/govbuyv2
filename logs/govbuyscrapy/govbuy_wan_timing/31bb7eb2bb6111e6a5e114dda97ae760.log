@@ -1,0 +1,58 @@
+2016-12-06 11:08:03 [scrapy] INFO: Scrapy 1.2.1 started (bot: govbuyscrapy)
+2016-12-06 11:08:03 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'govbuyscrapy.spiders', 'SPIDER_MODULES': ['govbuyscrapy.spiders'], 'LOG_FILE': 'logs/govbuyscrapy/govbuy_wan_timing/31bb7eb2bb6111e6a5e114dda97ae760.log', 'BOT_NAME': 'govbuyscrapy'}
+2016-12-06 11:08:03 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-12-06 11:08:03 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-12-06 11:08:03 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-12-06 11:08:03 [scrapy] INFO: Enabled item pipelines:
+[]
+2016-12-06 11:08:03 [scrapy] INFO: Spider opened
+2016-12-06 11:08:03 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-12-06 11:08:03 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6024
+2016-12-06 11:08:04 [scrapy] DEBUG: Crawled (200) <GET http://www.shouxian.gov.cn/opennessTarget/?branch_id=546ad3cc592c20a813e870b6&column_code=171100&page=1> (referer: None)
+2016-12-06 11:08:04 [scrapy] DEBUG: Crawled (200) <GET http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=1> (referer: None)
+2016-12-06 11:08:04 [scrapy] DEBUG: Filtered duplicate request: <GET http://www.shouxian.gov.cn/opennessTarget/?branch_id=546ad3cc592c20a813e870b6&column_code=171100&page=1> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2016-12-06 11:08:04 [scrapy] DEBUG: Crawled (200) <GET http://www.ahjinzhai.gov.cn/tmp/xxgklist2.shtml?unitsId=97&action=list&SS_Path=/-012-148-052&types=2&SSIDS%20=&pp=1> (referer: None)
+2016-12-06 11:08:04 [scrapy] DEBUG: Crawled (200) <GET http://www.shucheng.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=2012&action=list&SS_Path=/-012-148-052&types=2&pp=1> (referer: None)
+2016-12-06 11:08:04 [scrapy] DEBUG: Crawled (200) <GET http://xxgk.yuan.gov.cn/tmp/xxgklist2.shtml?unitsId=93&SSIDS=5833&action=list&SS_Path=/-010-032-024-004&types=2&pp=1> (referer: None)
+2016-12-06 11:08:04 [scrapy] DEBUG: Crawled (200) <GET http://www.huoqiu.gov.cn/tmp/xxgklist2.shtml?unitsId=1&SSIDS=4286&action=list&SS_Path=/-020-034-022&types=2&smonth=0&pp=1> (referer: None)
+2016-12-06 11:08:06 [scrapy] DEBUG: Crawled (200) <GET http://www.ja.gov.cn/TMP/Nav_gongkailanmu.shtml?unitsId=93&action=list&SS_Path=/-010-042-014&pp=1> (referer: None)
+2016-12-06 11:08:06 [scrapy] INFO: Closing spider (finished)
+2016-12-06 11:08:06 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2110,
+ 'downloader/request_count': 7,
+ 'downloader/request_method_count/GET': 7,
+ 'downloader/response_bytes': 266493,
+ 'downloader/response_count': 7,
+ 'downloader/response_status_count/200': 7,
+ 'dupefilter/filtered': 7,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 12, 6, 3, 8, 6, 657186),
+ 'log_count/DEBUG': 9,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 7,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'start_time': datetime.datetime(2016, 12, 6, 3, 8, 3, 855220)}
+2016-12-06 11:08:06 [scrapy] INFO: Spider closed (finished)

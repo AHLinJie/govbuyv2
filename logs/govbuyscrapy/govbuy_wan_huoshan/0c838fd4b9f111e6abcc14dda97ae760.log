@@ -1,0 +1,65 @@
+2016-12-04 07:12:45 [scrapy] INFO: Scrapy 1.2.1 started (bot: govbuyscrapy)
+2016-12-04 07:12:45 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'govbuyscrapy.spiders', 'SPIDER_MODULES': ['govbuyscrapy.spiders'], 'LOG_FILE': 'logs/govbuyscrapy/govbuy_wan_huoshan/0c838fd4b9f111e6abcc14dda97ae760.log', 'BOT_NAME': 'govbuyscrapy'}
+2016-12-04 07:12:45 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-12-04 07:12:45 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-12-04 07:12:45 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-12-04 07:12:45 [py.warnings] WARNING: govbuyscrapy/pipelines.py:9: ScrapyDeprecationWarning: Module `scrapy.contrib.exporter` is deprecated, use `scrapy.exporters` instead
+  from scrapy.contrib.exporter import JsonItemExporter
+
+2016-12-04 07:12:45 [scrapy] INFO: Enabled item pipelines:
+['govbuyscrapy.pipelines.GovbuyPipeline']
+2016-12-04 07:12:45 [scrapy] INFO: Spider opened
+2016-12-04 07:12:45 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-12-04 07:12:45 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-12-04 07:12:45 [scrapy] DEBUG: Crawled (200) <GET http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=1> (referer: None)
+2016-12-04 07:12:46 [scrapy] DEBUG: Filtered duplicate request: <GET http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=1> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2016-12-04 07:12:46 [scrapy] DEBUG: Crawled (200) <GET http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=10> (referer: http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=1)
+2016-12-04 07:12:46 [scrapy] DEBUG: Crawled (200) <GET http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=8> (referer: http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=1)
+2016-12-04 07:12:46 [scrapy] DEBUG: Crawled (200) <GET http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=4> (referer: http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=1)
+2016-12-04 07:12:46 [scrapy] DEBUG: Crawled (200) <GET http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=5> (referer: http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=1)
+2016-12-04 07:12:46 [scrapy] DEBUG: Crawled (200) <GET http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=6> (referer: http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=1)
+2016-12-04 07:12:46 [scrapy] DEBUG: Crawled (200) <GET http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=3> (referer: http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=1)
+2016-12-04 07:12:46 [scrapy] DEBUG: Crawled (200) <GET http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=9> (referer: http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=1)
+2016-12-04 07:12:46 [scrapy] DEBUG: Crawled (200) <GET http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=7> (referer: http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=1)
+2016-12-04 07:12:46 [scrapy] DEBUG: Crawled (200) <GET http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=2> (referer: http://www.ahhuoshan.gov.cn/opennessTarget/?branch_id=538fcdeda0139884c80e4a0d&column_code=171001&topic_id=&page=1)
+2016-12-04 07:12:46 [scrapy] INFO: Closing spider (finished)
+2016-12-04 07:12:46 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4580,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 565636,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 10,
+ 'dupefilter/filtered': 91,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 12, 4, 7, 12, 46, 695756),
+ 'log_count/DEBUG': 12,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 1,
+ 'request_depth_max': 2,
+ 'response_received_count': 10,
+ 'scheduler/dequeued': 10,
+ 'scheduler/dequeued/memory': 10,
+ 'scheduler/enqueued': 10,
+ 'scheduler/enqueued/memory': 10,
+ 'start_time': datetime.datetime(2016, 12, 4, 7, 12, 45, 644778)}
+2016-12-04 07:12:46 [scrapy] INFO: Spider closed (finished)
