@@ -44,11 +44,16 @@ class GovBuySpider(scrapy.Spider):
         'www.huoqiu.gov.cn': {
             'title': '//h1[re:test(@class, "newstitle$")]//text()',
             'content': '//div[re:test(@class, "newscontnet$")]//text()'
+        },
+        'www.lazfcg.gov.cn': {
+            'title': '//div[re:test(@class, "reportTitle$")]//h1//text()',
+            'content': '//div[re:test(@class, "frameReport$")]//text()'
         }
     }
 
     def start_requests(self):
         page_urls = get_uncrawled_purchase_urls()  # 获取接口数据(所有列表页面地址)
+        # page_urls = ['http://www.shouxian.gov.cn/openness/detail/content/5482bcfd592c20c26c61bc9d.html']
         for url in page_urls:
             yield scrapy.Request(url=url, callback=self.prase)
 

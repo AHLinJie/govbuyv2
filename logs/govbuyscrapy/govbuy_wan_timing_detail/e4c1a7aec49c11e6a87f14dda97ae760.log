@@ -1,0 +1,37 @@
+2016-12-18 05:08:02 [scrapy] INFO: Scrapy 1.2.1 started (bot: govbuyscrapy)
+2016-12-18 05:08:02 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'govbuyscrapy.spiders', 'SPIDER_MODULES': ['govbuyscrapy.spiders'], 'LOG_FILE': 'logs/govbuyscrapy/govbuy_wan_timing_detail/e4c1a7aec49c11e6a87f14dda97ae760.log', 'BOT_NAME': 'govbuyscrapy'}
+2016-12-18 05:08:02 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-12-18 05:08:02 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-12-18 05:08:02 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-12-18 05:08:02 [scrapy] INFO: Enabled item pipelines:
+[]
+2016-12-18 05:08:02 [scrapy] INFO: Spider opened
+2016-12-18 05:08:02 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-12-18 05:08:02 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-12-18 05:08:02 [scrapy] INFO: Closing spider (finished)
+2016-12-18 05:08:02 [scrapy] INFO: Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 12, 17, 21, 8, 2, 245479),
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 7,
+ 'start_time': datetime.datetime(2016, 12, 17, 21, 8, 2, 236123)}
+2016-12-18 05:08:02 [scrapy] INFO: Spider closed (finished)

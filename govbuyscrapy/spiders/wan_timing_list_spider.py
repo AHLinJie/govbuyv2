@@ -27,7 +27,7 @@ class GovBuySpider(scrapy.Spider):
         'www.ahjinzhai.gov.cn': '//li[re:test(@class, "mc$")]//a',
         'www.ja.gov.cn': '//li[re:test(@class, "mc$")]//a',
         'www.ahhuoshan.gov.cn': '//div[re:test(@class, "is-tda$")]//a',
-        'www.huoqiu.gov.cn': '//li[re:test(@class, "mc$")]//a'
+        'www.huoqiu.gov.cn': '//li[re:test(@class, "mc$")]//a',
     }
 
     def start_requests(self):
@@ -44,6 +44,8 @@ class GovBuySpider(scrapy.Spider):
             for i in xrange(1, 2):
                 url = template.format(i)
                 self.urls.add(url)
+        if host_url not in self.xpath_map:
+            return
         links = response.xpath(self.xpath_map[host_url])  # 这里根据域名来找xpath map 字符串 属于定制内容
         for index, link in enumerate(links):
             shref = link.xpath('@href').extract()[0]
